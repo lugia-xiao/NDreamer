@@ -4,6 +4,14 @@ by: Xiao Xiao (xiao.xiao.xx244@yale.edu)
 
 
 
+![](./Figure1_overview.png)
+
+---
+
+
+
+![](./Figure2_DL.png)
+
 ## Abstract
 
 Advances in single-cell sequencing techniques and the growing volume of single-cell data have created unprecedented opportunities for uncovering statistically significant gene expression patterns induced by perturbations or associated with specific disease conditions. However, existing methods struggle to effectively denoise batch-effect-free expressions and estimate condition-related responses due to neglecting data non-linearity and introducing unwanted biases. To address them, we developed NDreamer, a novel approach that combines neural discrete representation learning with counterfactual causal matching. NDreamer can be used to denoise batch-effect-free and condition-related-signal-preserved expression data while accurately estimating single-cell-level condition-induced signals. Benchmarked on datasets across platforms, organs, and species, NDreamer robustly outperformed previous single-cell-level perturbation effect estimation methods and batch effect denoising methods. Finally, we applied NDreamer to a large Alzheimer’s disease cohort and uncovered meaningful gene expression patterns between the dementia patients and health controls for each cell type.
